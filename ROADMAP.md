@@ -1,17 +1,17 @@
  # 🗺️ ROADMAP - Portfolio ItsJhonAlex
 
 ## 🎯 Fase 1: Configuración y Estructura Base
-- [x] Inicialización del proyecto con Vite + TypeScript
-- [x] Implementación de Tailwind CSS
-- [x] Estructura de carpetas
-- [x] Componentes base (Header, Footer)
-- [ ] Sistema de rutas
-- [ ] Configuración del tema oscuro/claro
+- [X] Inicialización del proyecto con Vite + TypeScript
+- [X] Implementación de Tailwind CSS
+- [X] Estructura de carpetas
+- [X] Componentes base (Header, Footer)
+- [X] Sistema de rutas
+- [X] Configuración del tema oscuro/claro
 - [ ] Configuración de i18n (ES/EN)
 
 ## 🎨 Fase 2: Desarrollo de Componentes Core
 ### Header
-- [x] Navegación responsive
+- [] Navegación responsive
 - [ ] Menú móvil con animaciones
 - [ ] Selector de idioma
 - [ ] Toggle tema oscuro/claro
@@ -25,21 +25,21 @@
 - [ ] Indicador de scroll
 
 ### Secciones Principales
-- [ ] About
+- [X] About
   - [ ] Bio profesional
   - [ ] Skills técnicos
   - [ ] Experiencia laboral
   - [ ] Educación
   - [ ] Certificaciones
 
-- [ ] Projects
+- [X] Projects
   - [ ] Grid de proyectos
   - [ ] Filtros por tecnología
   - [ ] Modal de detalles
   - [ ] Enlaces a demos y código
   - [ ] Screenshots interactivos
 
-- [ ] Contact
+- [X] Contact
   - [ ] Formulario de contacto
   - [ ] Integración con email
   - [ ] Validación de campos

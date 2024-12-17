@@ -83,11 +83,11 @@ export const Footer = () => `
           <ul class="space-y-2">
             <li class="flex items-center gap-2 text-gray-600 dark:text-gray-400">
               <i class="ri-mail-line"></i>
-              <span>contact@itsjhonalex.dev</span>
+              <span>itsjhonalex@gmail.com</span>
             </li>
             <li class="flex items-center gap-2 text-gray-600 dark:text-gray-400">
               <i class="ri-map-pin-line"></i>
-              <span>Colombia</span>
+              <span>Cuba</span>
             </li>
           </ul>
         </div>
