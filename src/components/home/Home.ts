@@ -21,7 +21,7 @@ export const Home = () => `
         <!-- Content -->
         <div class="lg:col-span-11 space-y-6 text-center lg:text-left">
           <h1 class="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent">
-            Hola, Soy ItsJhonAlex
+            Hola, Soy Jonathan Alejandro
           </h1>
           <h2 class="text-xl md:text-2xl text-gray-600 dark:text-gray-400">
             Desarrollador Full Stack

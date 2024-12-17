@@ -1,8 +1,8 @@
 export const Header = () => `
-  <header class="fixed w-full top-0 z-50 bg-white dark:bg-gray-900 shadow-sm">
+  <header class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm dark:bg-gray-900/90 shadow-sm transition-colors duration-200">
     <nav class="container mx-auto px-4 h-16">
       <div class="flex justify-between items-center h-full">
-        <a href="#" class="text-2xl font-bold text-primary-600">
+        <a href="#home" class="text-2xl font-bold text-primary-600">
           ItsJhonAlex
         </a>
 
@@ -19,8 +19,10 @@ export const Header = () => `
               <option value="en">EN</option>
             </select>
             
-            <button class="theme-toggle p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800">
-              🌙
+            <button id="theme-toggle" 
+                    class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+              <i class="ri-sun-line text-xl dark:hidden"></i>
+              <i class="ri-moon-line text-xl hidden dark:block"></i>
             </button>
           </div>
         </div>
@@ -32,17 +34,6 @@ export const Header = () => `
           </svg>
         </button>
       </div>
-
-      <!-- Menú móvil -->
-      <div class="hidden md:hidden">
-        <div class="px-2 pt-2 pb-3 space-y-1">
-          <a href="#home" class="nav-link-mobile">Inicio</a>
-          <a href="#about" class="nav-link-mobile">Sobre mí</a>
-          <a href="#projects" class="nav-link-mobile">Proyectos</a>
-          <a href="#contact" class="nav-link-mobile">Contacto</a>
-        </div>
-      </div>
     </nav>
   </header>
 `
-
